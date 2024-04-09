@@ -249,6 +249,43 @@ footer .textbottom {
   right: 20px;
 }
 
+#feature {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 150px;
+  column-gap: 70px;
+}
+
+#featur .fe-box {
+  height: 380px;
+  width: 280px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#featur .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#featur .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#featur .fe-box h6 {
+  padding: 9px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+}
+
 @media (max-width: 1008px) {
   header {
     display: flex;
