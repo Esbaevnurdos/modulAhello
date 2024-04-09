@@ -295,6 +295,7 @@ footer .textbottom {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px;
+    width: 100%;
   }
 
   header img {
@@ -311,7 +312,7 @@ footer .textbottom {
   }
 
   header nav .sign {
-    padding: 10px 30px;
+    padding: 0px 0px;
     border-radius: 7px;
     color: white;
     background-color: #6c63ff;
@@ -394,7 +395,7 @@ footer .textbottom {
   #feature {
     display: flex;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 0px 0px;
     column-gap: 20px;
   }
 
@@ -481,12 +482,17 @@ footer .textbottom {
 
   #featur {
     display: flex;
+    align-items: center;
 
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 40px 0px;
-    column-gap: 20px;
+    column-gap: 70px;
   }
-
   #featur {
+    display: flex;
+
+    column-gap: 20px;
   }
 
   #featur .fe-box {
