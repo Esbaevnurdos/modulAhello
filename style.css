@@ -398,10 +398,6 @@ footer .textbottom {
     column-gap: 20px;
   }
 
-  #feature {
-    justify-content: space-between;
-  }
-
   #feature .fe-box {
     height: 100%;
     margin: 0 0 15px 0;
@@ -485,19 +481,18 @@ footer .textbottom {
 
   #featur {
     display: flex;
-    flex-direction: column;
 
     padding: 40px 0px;
     column-gap: 20px;
   }
 
   #featur {
-    justify-content: space-between;
   }
 
   #featur .fe-box {
     height: 100%;
     margin: 0 0 15px 0;
+    align-items: center;
   }
 }
 
@@ -602,14 +597,9 @@ footer .textbottom {
 
   #feature {
     display: flex;
-    flex-direction: column;
 
     padding: 40px 20px;
     column-gap: 20px;
-  }
-
-  #feature {
-    justify-content: space-between;
   }
 
   #feature .fe-box {
@@ -619,14 +609,11 @@ footer .textbottom {
 
   #featur {
     display: flex;
-    flex-direction: column;
-
-    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 00px;
     column-gap: 20px;
-  }
-
-  #featur {
-    justify-content: space-between;
   }
 
   #featur .fe-box {
